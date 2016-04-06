@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E1B323601CAACAAD0066BE90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B3235F1CAACAAD0066BE90 /* main.m */; };
+		E1CEA80A1CB5158100E8D193 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = E1CEA8091CB5158100E8D193 /* Singleton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,10 @@
 /* Begin PBXFileReference section */
 		E1B3235C1CAACAAD0066BE90 /* DesignPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1B3235F1CAACAAD0066BE90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E1CEA8081CB5158100E8D193 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		E1CEA8091CB5158100E8D193 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		E1CEA80B1CB5182C00E8D193 /* Singleton.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Singleton.txt; sourceTree = "<group>"; };
+		E1D005C91CB51F240033BF35 /* MJRefresh类的关系图.mdj */ = {isa = PBXFileReference; lastKnownFileType = text; path = "MJRefresh类的关系图.mdj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +63,20 @@
 			isa = PBXGroup;
 			children = (
 				E1B3235F1CAACAAD0066BE90 /* main.m */,
+				E1CEA8071CB514D800E8D193 /* 单例模式 */,
 			);
 			path = DesignPattern;
+			sourceTree = "<group>";
+		};
+		E1CEA8071CB514D800E8D193 /* 单例模式 */ = {
+			isa = PBXGroup;
+			children = (
+				E1CEA8081CB5158100E8D193 /* Singleton.h */,
+				E1CEA8091CB5158100E8D193 /* Singleton.m */,
+				E1CEA80B1CB5182C00E8D193 /* Singleton.txt */,
+				E1D005C91CB51F240033BF35 /* MJRefresh类的关系图.mdj */,
+			);
+			path = "单例模式";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +136,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1B323601CAACAAD0066BE90 /* main.m in Sources */,
+				E1CEA80A1CB5158100E8D193 /* Singleton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +255,7 @@
 				E1B323651CAACAAD0066BE90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

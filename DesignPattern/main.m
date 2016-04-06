@@ -15,3 +15,7 @@ int main(int argc, const char * argv[]) {
     }
     return 0;
 }
+
+/**
+ 单例模式: http://blog.csdn.net/lovelion/article/details/7420883
+ */
